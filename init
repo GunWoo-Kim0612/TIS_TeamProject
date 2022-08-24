@@ -1,0 +1,14 @@
+Project Facets  java 1.6 to 1.8
+
+pom.xml
+	
+springframework v3.1.1 to 5.0.7
+
+junit v4.7 to 4.121	
+
+apache.maven.plugins 
+	source 1.6 to 1.8
+	target 1.6 to 1.8
+	
+
+	
