@@ -4,21 +4,97 @@
     
     
     <main>
-
-        <section class="py-5 text-center container">
-            <div class="row py-lg-5">
-                <div class="col-lg-6 col-md-8 mx-auto">
-                    <h1 class="fw-light">Album example</h1>
-                    <p class="lead text-muted">Something short and leading about the collection below—its contents, the
-                        creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it
-                        entirely.</p>
-                    <p>
-                        <a href="#" class="btn btn-primary my-2">Main call to action</a>
-                        <a href="#" class="btn btn-secondary my-2">Secondary action</a>
-                    </p>
-                </div>
-            </div>
-        </section>
+<section class="ftco-section">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 text-center">
+						<h2 class="heading-section mb-5 pb-md-4">Carousel #02</h2>
+					</div>
+					<div class="col-md-12">
+						<div class="featured-carousel owl-carousel">
+							<div class="item">
+								<div class="work">
+									<div class="img d-flex align-items-center justify-content-center rounded" style="background-image: url(images/work-1.jpg);">
+										<a href="#" class="icon d-flex align-items-center justify-content-center">
+											<span class="ion-ios-search"></span>
+										</a>
+									</div>
+									<div class="text pt-3 w-100 text-center">
+										<h3><a href="#">Work 01</a></h3>
+										<span>Web Design</span>
+									</div>
+								</div>
+							</div>
+							<div class="item">
+								<div class="work">
+									<div class="img d-flex align-items-center justify-content-center rounded" style="background-image: url(images/work-2.jpg);">
+										<a href="#" class="icon d-flex align-items-center justify-content-center">
+											<span class="ion-ios-search"></span>
+										</a>
+									</div>
+									<div class="text pt-3 w-100 text-center">
+										<h3><a href="#">Work 02</a></h3>
+										<span>Web Design</span>
+									</div>
+								</div>
+							</div>
+							<div class="item">
+								<div class="work">
+									<div class="img d-flex align-items-center justify-content-center rounded" style="background-image: url(images/work-3.jpg);">
+										<a href="#" class="icon d-flex align-items-center justify-content-center">
+											<span class="ion-ios-search"></span>
+										</a>
+									</div>
+									<div class="text pt-3 w-100 text-center">
+										<h3><a href="#">Work 03</a></h3>
+										<span>Web Design</span>
+									</div>
+								</div>
+							</div>
+							<div class="item">
+								<div class="work">
+									<div class="img d-flex align-items-center justify-content-center rounded" style="background-image: url(images/work-4.jpg);">
+										<a href="#" class="icon d-flex align-items-center justify-content-center">
+											<span class="ion-ios-search"></span>
+										</a>
+									</div>
+									<div class="text pt-3 w-100 text-center">
+										<h3><a href="#">Work 04</a></h3>
+										<span>Web Design</span>
+									</div>
+								</div>
+							</div>
+							<div class="item">
+								<div class="work">
+									<div class="img d-flex align-items-center justify-content-center rounded" style="background-image: url(images/work-5.jpg);">
+										<a href="#" class="icon d-flex align-items-center justify-content-center">
+											<span class="ion-ios-search"></span>
+										</a>
+									</div>
+									<div class="text pt-3 w-100 text-center">
+										<h3><a href="#">Work 05</a></h3>
+										<span>Web Design</span>
+									</div>
+								</div>
+							</div>
+							<div class="item">
+								<div class="work">
+									<div class="img d-flex align-items-center justify-content-center rounded" style="background-image: url(images/work-6.jpg);">
+										<a href="#" class="icon d-flex align-items-center justify-content-center">
+											<span class="ion-ios-search"></span>
+										</a>
+									</div>
+									<div class="text pt-3 w-100 text-center">
+										<h3><a href="#">Work 06</a></h3>
+										<span>Web Design</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 
         <div class="album py-5 bg-light">
             <div class="container">
