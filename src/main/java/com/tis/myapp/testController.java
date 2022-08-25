@@ -15,4 +15,12 @@ public class testController {
 		return "test";
 
 	}
+	@RequestMapping(value = "/index")
+	public String mainView() {
+		
+		System.out.println("index 화면으로 이동...");
+		
+		return "index";
+		
+	}
 }
