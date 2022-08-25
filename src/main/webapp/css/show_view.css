@@ -1,0 +1,188 @@
+    .gray-con {
+        padding: 20px;
+        background: #f2f2f2;
+    }
+
+    .cwa-text {
+        padding: 30px;
+        background: #fff;
+        overflow: auto;
+        line-height: 25px;
+    }
+
+    .office-num {
+        display: table;
+        margin: 0 auto 20px;
+    }
+
+    .office-history {
+        padding: 35px 20px;
+    }
+
+    .office-history>h3>strong {
+        display: inline-block;
+        font-weight: 600;
+    }
+
+    h3>.break-line {
+        font-size: 24px;
+        margin-top: 5px;
+        display: block;
+    }
+
+    .office-history>p {
+        color: #878787;
+        font-size: 18px;
+        font-weight: inherit;
+    }
+
+    .office-num>* {
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    .office-num>.img {
+        width: 102px;
+    }
+
+    .office-num>.word {
+        padding-left: 20px;
+    }
+
+    /* 장소 소개 */
+    .word>ul {
+        padding-left: 15px;
+    }
+
+    .word>ul>li {
+        padding: 0px;
+    }
+
+    /* 여백의 미 */
+    .blank_10 {
+        height: 10px;
+    }
+
+    .blank_20 {
+        height: 20px;
+    }
+
+    .blank_30 {
+        height: 30px;
+    }
+
+    .blank_40 {
+        height: 40px;
+    }
+
+    .blank_50 {
+        height: 50px;
+    }
+
+    .blank_60 {
+        height: 60px;
+    }
+
+    .blank_70 {
+        height: 70px;
+    }
+
+    .blank_80 {
+        height: 80px;
+    }
+
+    .seat-num {
+        display: table;
+        width: 100%;
+        border-top: 1px solid #c6c6c6;
+    }
+
+    .seat-num {
+        list-style-type: none;
+        padding: 0px;
+    }
+
+    .seat-num>li:first-child {
+        border-top: 0;
+        border-left: 0;
+    }
+
+    .seat-num>li {
+        display: table-cell;
+        vertical-align: middle;
+        padding: 25px 10px;
+        width: 33%;
+        text-align: center;
+        border-left: 1px solid #c6c6c6;
+        list-style-type: none;
+    }
+
+    .seat-num .list-ping-bgfang {
+        margin-top: 5px;
+    }
+
+    .seat-num .list-ping-bgfang>li {
+        display: inline-block;
+        vertical-align: top;
+        text-align: left;
+        margin: 5px 20px 0 !important;
+    }
+
+    .list-ping-bgfang>li {
+        position: relative;
+        padding-left: 16px;
+        margin-top: 5px;
+    }
+
+    .cwa-text>a>span {
+        display: table-cell;
+        height: 103px;
+        line-height: 20px;
+        vertical-align: middle;
+        color: #ed1839;
+        font-size: 17px;
+    }
+
+    .cwa-text>a {
+        display: table;
+        position: relative;
+        right: 0;
+        top: 0;
+        height: 103px;
+        text-align: center;
+        width: 103px;
+        border: 1px solid #ed1839;
+        border-radius: 57px;
+        text-decoration: none;
+    }
+
+    .intro-ft {
+        text-align: center;
+    }
+
+    .intro-ft a {
+        text-decoration: none;
+        font-size: 17px;
+        padding: 15px 30px;
+        color: red;
+        border: 1px solid red;
+
+    }
+
+    .cwa-t-b-imglist {
+        background: #f2f2f2;
+        padding: 30px 20px;
+        margin-top: 20px;
+        overflow: hidden;
+    }
+
+    .cwa-text>div>div>div>span.tit {
+        border-top: 7px solid #f2f2f2;
+        font-size: 24px;
+        font-weight: bold;
+        color: #333;
+        padding-top: 10px;
+        display: block;
+        margin-bottom: 30px;
+        margin-top: 10px;
+    }
