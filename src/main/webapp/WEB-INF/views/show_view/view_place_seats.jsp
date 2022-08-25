@@ -17,7 +17,7 @@
                         <div class="gray-con">
                             <div class="cwa-text">
                                 <center>
-                                    <img src="seats.gif" class="img-fluid" alt="">
+                                    <img src="../show_view/sh_seats.gif" class="img-fluid" alt="">
                                     <ul class="seat-num">
                                         <li>
                                             <p>1층 454석</p>
