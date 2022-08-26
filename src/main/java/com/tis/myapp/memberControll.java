@@ -16,4 +16,13 @@ public class memberControll {
 		return path + "/login";
 		
 	}
+	
+	@RequestMapping(value = path + "/join")
+	public String joinView() {
+		
+		System.out.println("join  화면으로 이동");
+		
+		return path + "/join";
+		
+	}
 }
