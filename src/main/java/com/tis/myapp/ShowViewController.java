@@ -9,12 +9,48 @@ public class ShowViewController {
 	
 final String path = "/show_view";
 	
-	@RequestMapping(value = path + "/show")
-	public String ShowView() {
+	@RequestMapping(value = path + "/view_intro")
+	public String View_intro() {
 		
-		System.out.println("Show_view 화면으로 이동");
+		System.out.println("show_view_intro 화면으로 이동");
 		
-		return path + "/show_view";
+		return path + "/view_intro";
+		
+	}
+	
+	@RequestMapping(value = path + "/view_place_intro")
+	public String View_place_intro() {
+		
+		System.out.println("view_place_intro 화면으로 이동");
+		
+		return path + "/view_place_intro";
+		
+	}
+	
+	@RequestMapping(value = path + "/view_place_seats")
+	public String View_place_seats() {
+		
+		System.out.println("view_place_seats 화면으로 이동");
+		
+		return path + "/view_place_seats";
+		
+	}
+	
+	@RequestMapping(value = path + "/view_reserve")
+	public String View_reserve() {
+		
+		System.out.println("view_reserve 화면으로 이동");
+		
+		return path + "/view_reserve";
+		
+	}
+	
+	@RequestMapping(value = path + "/view_review")
+	public String View_review() {
+		
+		System.out.println("view_review 화면으로 이동");
+		
+		return path + "/view_review";
 		
 	}
 }
