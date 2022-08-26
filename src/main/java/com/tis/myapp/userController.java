@@ -8,10 +8,19 @@ public class userController {
 
 	final String path = "/user";
 	
-	@RequestMapping(value = path + "/edit")
+	@RequestMapping(value = path + "/myticket")
 	public String mainView() {
 		
-		System.out.println("user È­¸éÀ¸·Î ÀÌµ¿...");
+		System.out.println("user È­ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ìµï¿½...");
+		
+		return path + "/myticket";
+		
+	}
+	
+	@RequestMapping(value = path + "/edit")
+	public String myTicket() {
+		
+		System.out.println("user È­ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ìµï¿½...");
 		
 		return path + "/edit";
 		
