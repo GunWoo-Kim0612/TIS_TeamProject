@@ -34,8 +34,8 @@
 	<jsp:include page="../header.jsp"></jsp:include>
 
 
-
 	<div class="container">
+	<jsp:include page="mp_nav.jsp"></jsp:include>
 		<h2 class="card-title">개인정보관리</h2>
 		<div class="card">
 			<div class="card-body">
