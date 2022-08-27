@@ -19,6 +19,9 @@
     <link href="../css/show_view.css" rel="stylesheet">
 </head>
 <body>
+
+<jsp:include page="../header.jsp"/>
+	<jsp:include page="content_b.jsp"/>
 	<div class="container">
 		<jsp:include page="content_nav.jsp"/>
 		
@@ -161,7 +164,7 @@
         </div>
         <!-- 운영목표 end -->
 		
-		
 	</div>
+		<jsp:include page="../footer.jsp"/>
 </body>
 </html>
