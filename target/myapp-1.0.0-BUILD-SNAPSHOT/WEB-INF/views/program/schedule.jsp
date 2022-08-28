@@ -94,6 +94,7 @@
 <body>
 	<jsp:include page="../header.jsp"></jsp:include>
 
+	<jsp:include page="../banner_carousel.jsp"></jsp:include>
 
 	<div class="contatiner">
 		<!-- contents START -->
