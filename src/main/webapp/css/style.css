@@ -57,7 +57,8 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff; }
+  background-color: #fff !important;
+  }
 
 [tabindex="-1"]:focus {
   outline: 0 !important; }
@@ -8280,3 +8281,19 @@ h1, h2, h3, h4, h5,
     font-weight: 500; }
   .work:hover .img .icon {
     opacity: 1; }
+    
+      .my_navbar {
+        text-align: center;
+    }
+
+    .my_navbar a {
+        color: white !important;
+    }
+
+    .my_navbar a p {
+        font-size: 15px;
+    }
+
+    .my_row {
+        text-align: right;
+    }
