@@ -28,88 +28,94 @@
         <div class="gray-con">
             <div class="cwa-text">
                 <div class="cwa-text">
-                    <h3><span>{공연 제목}</span>에 대한 관람평을 적어주세요.</h3>
-                    <div class="blank_10"></div>
-                    <p>
-                        ※ 저속한 표현, 타인의 명예훼손, 광고성 게시물 등은 통보 없이 삭제할 수 있음을 양지하여 주십시오.
-                        <br>※ 등록된 관람평의 수정과 삭제는 마이페이지 &gt; 참여와활동 &gt; 관람평 에서 가능합니다.
-                    </p>
-                    <!-- Button trigger modal start -->
-                    <a href="" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-                    <span>관람평<br>쓰기</span>
-                    </a>
-    <!-- Button trigger modal end -->
+                
+                	<div class="row">
+                        <div class="col-10">
+                            <h3><span>{공연 제목}</span>에 대한 관람평을 적어주세요.</h3>
+                            <div class="blank_10"></div>
+                            <p>
+                                ※ 저속한 표현, 타인의 명예훼손, 광고성 게시물 등은 통보 없이 삭제할 수 있음을 양지하여 주십시오.
+                                <br>※ 등록된 관람평의 수정과 삭제는 마이페이지 &gt; 참여와활동 &gt; 관람평 에서 가능합니다.
+                            </p>
+                        </div>
+                        <div class="col-2">
+		                    <!-- Button trigger modal start -->
+		                    <a href="" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+		                    	<span>관람평<br>쓰기</span>
+		                    </a>
+		    				<!-- Button trigger modal end -->
+                        </div>
+                    </div>
+                    
     
-    <!-- 관람평 기입 창 start-->
-    <form action="">
-        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-            aria-labelledby="staticBackdropLabel" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered">
+     <!-- 관람평 기입 창 start-->
+        <form action="">
+            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
 
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="staticBackdropLabel">관람평 쓰기</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="staticBackdropLabel">관람평 쓰기</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
 
-                        <table class="table table-bordered">
-                            <tbody>
-                                <tr>
-                                    <tdcol>
-                                        작성자
-                                        <td>
+                            <table class="table table-bordered">
+                                <tbody>
+                                    <colgroup>
+                                        <col style="width: 20%">
+                                        <col style="width: 80%">
+                                    </colgroup>
+                                    <tr>
+                                        <tdcol>
+                                            <th scope="row">작성자</th>
+                                            <input type="hidden" value="">
+
+                                            <td colspan="2">Larry the Bird</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">작품명</th>
+                                        <input type="hidden" value="">
                                         <td colspan="2">Larry the Bird</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">작품명</th>
-                                    <td colspan="2">Larry the Bird</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">종합평점</th>
-                                    <td colspan="2">Larry the Bird</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">관람평</th>
-                                    <td colspan="2">Larry the Bird</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">내용</th>
-                                    <td colspan="2">Larry the Bird</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">작품만족도</th>
-                                    <td colspan="2">Larry the Bird</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">관람비용<br>만족도</th>
-                                    <td colspan="2">Larry the Birdㄹ</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">홈페이지정보<br>만족도</th>
-                                    <td colspan="2">Larry the Bird</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">서비스<br>만족도</th>
-                                    <td colspan="2">Larry the Bird</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">관람동반자</th>
-                                    <td colspan="2">Larry the Bird</td>
-                                </tr>
-                            </tbody>
-                        </table>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">종합평점</th>
+                                        <td colspan="2">
+                                            <select name="review_score">
+                                                <option value="1">★☆☆☆☆</option>
+                                                <option value="2">★★☆☆☆</option>
+                                                <option value="3">★★★☆☆</option>
+                                                <option value="4">★★★★☆</option>
+                                                <option value="5">★★★★★</option>
+                                            </select>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">관람평</th>
+                                        <td colspan="2">
+                                            <input class="col-12" type="text">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">내용</th>
+                                        <td colspan="2">
+                                            <input class="col-12" style="height: 150px;" type="text">
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
 
-                    </div>
-                    <div class="modal-footer">
-                        <input type="submit">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                        <div class="modal-footer">
+                            <input type="submit">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </form>
-    <!-- 관람평 기입 창 end -->
+        </form>
+        <!-- 관람평 기입 창 end -->
                     
                 </div>
 

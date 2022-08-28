@@ -41,7 +41,12 @@
                 </ul>
             </dt>
             <dd>
-
+                <p>
+                    <a href="#">
+                        <img src="../show_view/sh_sac_test.gif" class="img-fluid" alt="...">
+                        <span>예매</span>
+                    </a>
+                </p>
             </dd>
         </dl>
     </div>
