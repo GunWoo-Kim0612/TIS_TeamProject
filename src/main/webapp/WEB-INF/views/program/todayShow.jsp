@@ -1,7 +1,11 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-	pageEncoding="UTF-8"%>
-
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head><!DOCTYPE html>
 <html>
 
 
@@ -57,11 +61,7 @@
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/4.5.6/css/ionicons.min.css">
-    
-    <link rel="stylesheet" href="css/style.css">
-
-    <!-- banner css -->
-    <link rel="stylesheet" href="../css/show_view.css">
+    <link rel="stylesheet" href="../css/style.css">
 
 
     <!-- jQuery(제이쿼리) 최신버전 링크  -->
@@ -70,28 +70,11 @@
 <style>
   
 </style>
-
 <body>
-	<jsp:include page="header.jsp"></jsp:include>
-	<jsp:include page="content.jsp"></jsp:include>
-
-
-
-
-
-	<jsp:include page="footer.jsp"></jsp:include>
-
-
-
-
-
-
-<!-- carousel -->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/popper.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/main.js"></script>
+	
+		<jsp:include page="../header.jsp"></jsp:include>
+		<jsp:include page="../banner_carousel.jsp"></jsp:include>
+		<jsp:include page="../footer.jsp"></jsp:include>
+	
 </body>
-
 </html>

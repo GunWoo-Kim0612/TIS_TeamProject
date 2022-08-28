@@ -1,7 +1,41 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 
-    <!-- 장소안내 좌석 배치도 start -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+    <link href="../css/show_view.css" rel="stylesheet">
+        <link rel="stylesheet" href="../css/style.css">
+    
+</head>
+<body>
+<jsp:include page="../header.jsp"/>
+	<jsp:include page="show_view_b.jsp"/>
+	<div class="container">
+	<jsp:include page="view_nav_top.jsp"/>
+	
+	<!-- 장소안내 start -->
+        <div class="gray-con">
+            <div class="cwa-text">
+                <div class="cwa-text">
+                    
+                    <jsp:include page="view_place.jsp"/>
+
+
+
+
                     <div class="office-box">
                         <div class="office-history">
 
@@ -17,7 +51,7 @@
                         <div class="gray-con">
                             <div class="cwa-text">
                                 <center>
-                                    <img src="../show_view/sh_seats.gif" class="img-fluid" alt="">
+                                    <img src="seats.gif" class="img-fluid" alt="">
                                     <ul class="seat-num">
                                         <li>
                                             <p>1층 454석</p>
@@ -36,3 +70,14 @@
                         </div>
                     </div>
                     <!-- 장소안내 좌석 배치도 end -->
+
+                </div>
+            </div>
+        </div>
+	
+	<jsp:include page="view_nav_bottom.jsp"/>
+	</div>
+	<jsp:include page="../footer.jsp"/>
+</body>
+</html>
+    
