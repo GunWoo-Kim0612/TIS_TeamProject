@@ -23,10 +23,15 @@
 	integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
 	crossorigin="anonymous"></script>
 <link rel="stylesheet" href="../bootstrap.men.css">
+
+    <link href="../css/show_view.css" rel="stylesheet">
+        <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body>
 	<jsp:include page="../header.jsp"></jsp:include>
+		<jsp:include page="member_b.jsp"></jsp:include>
+	
 	<div class="container" style="width: 800px;">
 		<form class="mt-5">
 			<h2>회원 가입</h2>

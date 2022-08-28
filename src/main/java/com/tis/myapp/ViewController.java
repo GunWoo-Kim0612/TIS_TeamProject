@@ -15,7 +15,7 @@ public class ViewController {
 		return "test";
 
 	}
-	@RequestMapping(value = "/main")
+	@RequestMapping(value = "/")
 	public String mainView() {
 		
 		System.out.println("index 페이지로이동...");
