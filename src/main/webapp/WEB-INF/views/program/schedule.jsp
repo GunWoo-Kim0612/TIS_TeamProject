@@ -1,9 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-	pageEncoding="UTF-8"%>
-
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
-
 
 <head>
 <meta charset="utf-8">
@@ -29,14 +27,7 @@
         crossorigin="anonymous"></script>
     <!--  -->
 
-    <!-- crousel Favicons -->
-    <link rel="apple-touch-icon" href="/docs/5.1/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
-    <link rel="icon" href="/docs/5.1/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
-    <link rel="icon" href="/docs/5.1/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
-    <link rel="manifest" href="/docs/5.1/assets/img/favicons/manifest.json">
-    <link rel="mask-icon" href="/docs/5.1/assets/img/favicons/safari-pinned-tab.svg" color="#7952b3">
-    <link rel="icon" href="/docs/5.1/assets/img/favicons/favicon.ico">
-
+ 
     <!-- 부트스트랩 3버전 -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
         integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
@@ -50,44 +41,86 @@
         integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
         crossorigin="anonymous"></script>
 
-    <!-- carousel -->
+<!-- header css -->
+    <link rel="stylesheet" href="../css/style.css">
 
-    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
-
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/4.5.6/css/ionicons.min.css">
-    <link rel="stylesheet" href="css/style.css">
 
 
     <!-- jQuery(제이쿼리) 최신버전 링크  -->
     <script src="http://code.jquery.com/jquery-latest.min.js"></script>
 </head>
-<style>
+
+
+
+
+  <title>
+    Month View - Demos | FullCalendar
+  </title>
+
+
+<link href='/docs/dist/demo-to-codepen.css' rel='stylesheet' />
+
+
+  <style>
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+      font-size: 14px;
+    }
+
+    #calendar {
+      max-width: 1100px;
+      margin: 40px auto;
+    }
+
+  </style>
+
+
+
+<link href='https://cdn.jsdelivr.net/npm/fullcalendar@5.11.3/main.min.css' rel='stylesheet' />
+<script src='https://cdn.jsdelivr.net/npm/fullcalendar@5.11.3/main.min.js'></script>
+
   
-</style>
 
+
+
+<script src='/docs/dist/demo-to-codepen.js'></script>
+
+
+  <script>
+
+  document.addEventListener('DOMContentLoaded', function() {
+    var calendarEl = document.getElementById('calendar');
+
+    var calendar = new FullCalendar.Calendar(calendarEl, {
+      timeZone: 'UTC',
+      initialView: 'dayGridMonth',
+      events: 'https://fullcalendar.io/api/demo-feeds/events.json',
+      editable: true,
+      selectable: true
+    });
+
+    calendar.render();
+  });
+
+</script>
+
+</head>
 <body>
-	<jsp:include page="header.jsp"></jsp:include>
-	<jsp:include page="content.jsp"></jsp:include>
+
+	<jsp:include page="../header.jsp"></jsp:include>
 
 
-
-
-
-	<jsp:include page="footer.jsp"></jsp:include>
-
-
-
-
-
-
-<!-- carousel -->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/popper.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/main.js"></script>
+<div class="container">
+  <div id='calendar'></div>
+  
+  	<jsp:include page="../footer.jsp"></jsp:include>
+  </div>
 </body>
 
+</html>
+
+</body>
 </html>

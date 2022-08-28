@@ -17,24 +17,19 @@
 
             <!-- 로고 및 로그인   -->
             <div class="row">
-                <a href="#" class="navbar-brand d-flex align-items-center">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor"
-                        stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="me-2"
-                        viewBox="0 0 24 24">
-                        <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z" />
-                        <circle cx="12" cy="13" r="4" />
-                    </svg>
-                    <strong>Album</strong>
+                <a href="/main" class="navbar-brand d-flex align-items-center">
+                  
+                    <strong>TIS</strong>
                 </a>
             </div>
             <div class="row ">
                 <div class="col-sx-2 col-sm-4 col-md-6">
-                    <a href="#" class="navbar-brand d-flex align-items-center my_row">
+                    <a href="/member/login" class="navbar-brand d-flex align-items-center my_row">
                         <strong>Login</strong>
                     </a>
                 </div>
                 <div class="col-sx-2 col-sm-4 col-md-6">
-                    <a href="#" class="navbar-brand d-flex align-items-center my_row">
+                    <a href="/member/join" class="navbar-brand d-flex align-items-center my_row">
                         <strong> Join</strong>
                     </a>
                 </div>
@@ -50,23 +45,23 @@
                 <!-- 1행 -->
                 <div class="row align-items-center">
                     <div class="col-sm-3 col-xs-3 col-md-3 py-2 my_navbar ">
-                        <a class=" navbar-brand " href="#"><strong>공연·전시</strong></a>
+                        <a class=" navbar-brand " ><strong>공연·전시</strong></a>
                     </div>
                     <div class="col-sm-3 col-xs-3 col-md-3 py-2 my_navbar ">
-                        <a class=" navbar-brand " href="#"><strong>소식·이용·참여</strong></a>
+                        <a class=" navbar-brand " ><strong>소식·이용·참여</strong></a>
                     </div>
                     <div class="col-sm-3 col-xs-3 col-md-3 py-2 my_navbar ">
-                        <a class=" navbar-brand " href="#"><strong>회원서비스</strong></a>
+                        <a class=" navbar-brand " ><strong>회원서비스</strong></a>
                     </div>
                     <div class="col-sm-3 col-xs-3 col-md-3 py-2 my_navbar ">
-                        <a class=" navbar-brand " href="#"><strong>기관소개</strong></a>
+                        <a class=" navbar-brand " ><strong>기관소개</strong></a>
                     </div>
                 </div>
                 <!-- 2행 -->
                 <div class="row align-items-center">
 
                     <div class="col-sm-3 col-xs-3 col-md-3  my_navbar ">
-                        <a class=" navbar-brand " href="#">
+                        <a class=" navbar-brand " href="/program/schedule.html">
                             <p>전체일정(달력)</p>
                         </a>
                     </div>
@@ -76,12 +71,12 @@
                         </a>
                     </div>
                     <div class="col-sm-3 col-xs-3 col-md-3  my_navbar ">
-                        <a class=" navbar-brand " href="#">
+                        <a class=" navbar-brand " href="/member/join">
                             <p>회원가입</p>
                         </a>
                     </div>
                     <div class="col-sm-3 col-xs-3 col-md-3  my_navbar ">
-                        <a class=" navbar-brand " href="#">
+                        <a class=" navbar-brand " href="/content/greeting">
                             <p>기관소개 메인</p>
                         </a>
                     </div>
@@ -100,7 +95,7 @@
                         </a>
                     </div>
                     <div class="col-sm-3 col-xs-3 col-md-3  my_navbar ">
-                        <a class=" navbar-brand " href="#">
+                        <a class=" navbar-brand " href="/member/login">
                             <p>로그인</p>
                         </a>
                     </div>
@@ -124,7 +119,7 @@
                         </a>
                     </div>
                     <div class="col-sm-3 col-xs-3 col-md-3  my_navbar ">
-                        <a class=" navbar-brand " href="#">
+                        <a class=" navbar-brand " href="/member/findId">
                             <p>아이디찾기</p>
                         </a>
                     </div>
@@ -148,7 +143,7 @@
                         </a>
                     </div>
                     <div class="col-sm-3 col-xs-3 col-md-3 my_navbar ">
-                        <a class=" navbar-brand " href="#">
+                        <a class=" navbar-brand " href="/member/findPasswd">
                             <p>패스워드찾기</p>
                         </a>
                     </div>
