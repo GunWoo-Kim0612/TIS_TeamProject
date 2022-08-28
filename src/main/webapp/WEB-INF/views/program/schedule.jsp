@@ -1,3 +1,4 @@
+
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -25,7 +26,14 @@
 
 <link href='/docs/dist/demo-to-codepen.css' rel='stylesheet' />
 
+<!-- header css-->
+<link
+	href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900"
+	rel="stylesheet">
+<link href="../css/style.css" rel="stylesheet">
 
+<!-- show css -->
+<link href="../css/show_view.css" rel="stylesheet">
 <style>
 .my_navbar {
 	text-align: center;
@@ -43,12 +51,7 @@
 	text-align: right;
 }
 
-html, body {
-	margin: 0;
-	padding: 0;
-	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
-	font-size: 14px;
-}
+
 
 #calendar {
 	max-width: 1100px;
@@ -90,14 +93,20 @@ html, body {
 </head>
 <body>
 	<jsp:include page="../header.jsp"></jsp:include>
+	<jsp:include page="../banner_carousel.jsp"></jsp:include>
 
-	<!-- contents START -->
-	<div class='demo-topbar'>Month View</div>
-	<div id='calendar'></div>
-	<!-- contents END -->
+
+	<div class="contatiner">
+		<!-- contents START -->
+		<div id='calendar'></div>
+		<!-- contents END -->
+
+	</div>
+
 
 	<jsp:include page="../footer.jsp"></jsp:include>
 </body>
+
 
 
 </html>

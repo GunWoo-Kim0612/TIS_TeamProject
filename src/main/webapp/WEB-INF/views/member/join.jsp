@@ -8,6 +8,8 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Document</title>
+
+
 <link
 	href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
 	rel="stylesheet"
@@ -21,13 +23,17 @@
 	src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
 	integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
 	crossorigin="anonymous"></script>
+	
+    <!-- header css-->    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
+    
+    <!-- banner css -->
+    <link href="../css/show_view.css" rel="stylesheet">
+	
+	
 <style>
-* {
-	margin: 0px;
-	padding: 0px;
-	text-decoration: none;
-	font-family: sans-serif;
-}
+
 
 body {
 	background: #ffffff;
@@ -141,6 +147,9 @@ body {
 
 <body>
 	<jsp:include page="../header.jsp"></jsp:include>
+	<jsp:include page="member_b.jsp"></jsp:include>
+
+
 
 	<div class="container">
 		<form action="doJoin" method="POST" class="joinForm"

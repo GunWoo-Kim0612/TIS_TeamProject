@@ -17,6 +17,8 @@
         integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
         crossorigin="anonymous"></script>
     <link href="../css/show_view.css" rel="stylesheet">
+        <link rel="stylesheet" href="../css/style.css">
+    
 </head>
 <body>
 <jsp:include page="../header.jsp"/>
