@@ -1,3 +1,75 @@
+/* 08.27 추가본 start */
+    .cwa-top dt ul li span.tit {
+        width: 65px;
+        height: 30px;
+        color: #a3a3a3;
+        border-bottom: 1px solid #2e2e2e;
+        padding-left: 0;
+    }
+
+    .cwa-top dt ul li {
+        list-style-type: none;
+    }
+
+    .cwa-top dt ul li span {
+        font-size: 14px;
+        color: #fff;
+        display: table-cell;
+        vertical-align: middle;
+        padding-left: 23px;
+    }
+
+    .cwa-top dt ul li:first-child span.tit {
+        border-top: 1px solid #2e2e2e;
+    }
+
+    .cwa-top dt .title {
+        margin-top: 25px;
+        color: #fff;
+        font-size: 17px;
+    }
+
+    .area.show-view-top {
+        width: 90%;
+        padding-bottom: 20px;
+        max-width: 1280px;
+        margin: 0 auto;
+    }
+
+    .cwa-top {
+        padding: 48px 0 0;
+        min-height: 496px;
+        background: url(../images/sac_intro.gif) no-repeat center top;
+        background-size: cover !important;
+    }
+
+    .cwa-top.bg-box {
+        height: auto;
+        min-height: auto;
+        padding: 0;
+    }
+
+    .cwa-top.bg-box.style2 {
+        text-align: center;
+    }
+
+    .cwa-top.bg-box .sub-top-bg {
+        width: 98%;
+        max-width: 1280px;
+        margin: 0 auto;
+        padding: 80px 0;
+    }
+
+    .cwa-top.bg-box .sub-top-bg>h3.tit {
+        color: #fff;
+        font-size: 3em;
+        font-weight: 100;
+    }
+
+    /* 08.27 추가본 end */
+    
+    
+    
      /* 08.26 추가본 */
 
 

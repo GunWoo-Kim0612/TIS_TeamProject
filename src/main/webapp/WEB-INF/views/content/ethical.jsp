@@ -1,4 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
+s<%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -19,6 +19,8 @@
     <link href="../css/show_view.css" rel="stylesheet">
 </head>
 <body>
+	<jsp:include page="../header.jsp"/>
+	<jsp:include page="content_b.jsp"/>
 	<div class="container">
 		<jsp:include page="content_nav.jsp"/>
 		
@@ -54,5 +56,7 @@
         <!-- 윤리 경영 end -->
 		
 	</div>
+	
+	<jsp:include page="../footer.jsp"/>
 </body>
 </html>
