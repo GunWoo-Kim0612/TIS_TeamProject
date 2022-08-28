@@ -13,7 +13,7 @@
 	content="Mark Otto, Jacob Thornton, 그리고 Bootstrap 기여자들">
 <meta name="generator" content="Hugo 0.88.1">
 <meta name="theme-color" content="#7952b3">
- <title>1조 메인화면</title>
+ <title>Team Tis</title>
 
     <link rel="canonical" href="https://getbootstrap.kr/docs/5.1/examples/album/">
 
@@ -29,7 +29,7 @@
         crossorigin="anonymous"></script>
     <!--  -->
 
-    <!-- Favicons -->
+    <!-- crousel Favicons -->
     <link rel="apple-touch-icon" href="/docs/5.1/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
     <link rel="icon" href="/docs/5.1/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
     <link rel="icon" href="/docs/5.1/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
@@ -57,28 +57,18 @@
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/4.5.6/css/ionicons.min.css">
+    
     <link rel="stylesheet" href="css/style.css">
+
+    <!-- banner css -->
+    <link rel="stylesheet" href="../css/show_view.css">
 
 
     <!-- jQuery(제이쿼리) 최신버전 링크  -->
     <script src="http://code.jquery.com/jquery-latest.min.js"></script>
 </head>
 <style>
-    .my_navbar {
-        text-align: center;
-    }
-
-    .my_navbar a {
-        color: white !important;
-    }
-
-    .my_navbar a p {
-        font-size: 15px;
-    }
-
-    .my_row {
-        text-align: right;
-    }
+  
 </style>
 
 <body>
@@ -94,9 +84,7 @@
 
 
 
-	<script src="/docs/5.1/dist/js/bootstrap.bundle.min.js"
-		integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-		crossorigin="anonymous"></script>
+
 
 <!-- carousel -->
     <script src="js/jquery.min.js"></script>
