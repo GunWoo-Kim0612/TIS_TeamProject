@@ -4,32 +4,23 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-public class UserController {
+public class userController {
 
 	final String path = "/user";
-	
-	@RequestMapping(value =  "/user/myticket")
-	public String mainView() {
-		
-		System.out.println("user 페이지로이동...");
-		
-		return path + "/myticket";
-		
-	}
-	
-	@RequestMapping(value = "/user/edit")
+
+	@RequestMapping(value = path + "/myticket")
 	public String myTicket() {
-		
-		System.out.println("user 페이지로이동...");
-		
-		return path + "/edit";
-		
+
+		System.out.println("[WARNING] >>> /myticket ");
+
+		return path + "/myticket";
+
 	}
-	
+
 	@RequestMapping(value = path + "/mypick")
 	public String myPick() {
 
-		System.out.println("myPick 페이지로이동 ");
+		System.out.println("[WARNING] >>> /myPick ");
 
 		return path + "/mypick";
 
@@ -38,16 +29,25 @@ public class UserController {
 	@RequestMapping(value = path + "/pwd_chk")
 	public String pwdChk() {
 
-		System.out.println("pwd_chk 페이지로이동 ");
+		System.out.println("[WARNING] >>> /pwd_chk ");
 
 		return path + "/pwd_chk";
 
 	}
-	
+
+	@RequestMapping(value = path + "/edit")
+	public String edit() {
+
+		System.out.println("[WARNING] >>> /edit ");
+
+		return path + "/edit";
+
+	}
+
 	@RequestMapping(value = path + "/resign")
 	public String reSign() {
 
-		System.out.println("resign 페이지로이동");
+		System.out.println("[WARNING] >>> /resign ");
 
 		return path + "/resign";
 

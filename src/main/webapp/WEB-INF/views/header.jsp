@@ -18,7 +18,7 @@
 
 		<!-- 로고 및 로그인   -->
 		<div class="row">
-			<a href="/main" class="navbar-brand d-flex align-items-center"> <strong>TIS</strong>
+			<a href="/" class="navbar-brand d-flex align-items-center"> <strong>TIS</strong>
 			</a>
 		</div>
 		<div class="row ">
