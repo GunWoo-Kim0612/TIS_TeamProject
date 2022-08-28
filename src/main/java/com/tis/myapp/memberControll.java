@@ -25,4 +25,29 @@ public class memberControll {
 		return path + "/join";
 		
 	}
+	@RequestMapping(value = path + "/findId")
+	public String findIdView() {
+		
+		System.out.println("findId  화면으로 이동");
+		
+		return path + "/findId";
+		
+	}
+	
+	@RequestMapping(value = path + "/findpasswd")
+	public String findpasswdView() {
+		
+		System.out.println("findpasswd  화면으로 이동");
+		
+		return path + "/findpasswd";
+		
+	}
+	@RequestMapping(value = path + "/join_check")
+	public String join_checkView() {
+		
+		System.out.println("join_check  화면으로 이동");
+		
+		return path + "/join_check";
+		
+	}
 }

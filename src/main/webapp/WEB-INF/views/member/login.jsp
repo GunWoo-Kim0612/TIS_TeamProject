@@ -148,7 +148,7 @@
             <input class="btn mt-3" type="submit" value="Login">
         </form>
         <div class="text-center fs-6">
-            <a href="#">Forget password?</a> or <a href="join">Sign up</a>
+            <a href="join_check">회원가입</a>&nbsp&nbsp<a href="findId">아이디 찾기</a>&nbsp&nbsp<a href="findpasswd">비밀번호 찾기</a>
         </div>
     </div>
 	</div>
