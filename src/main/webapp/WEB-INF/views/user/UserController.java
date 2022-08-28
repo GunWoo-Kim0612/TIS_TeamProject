@@ -29,7 +29,7 @@ public class userController {
 	@RequestMapping(value = path + "/pwd_chk")
 	public String pwdChk() {
 
-		System.out.println("[WARNING] >>> /pwd_chk ");
+		System.out.println("pwd_chk 페이지로 이동 ");
 
 		return path + "/pwd_chk";
 
