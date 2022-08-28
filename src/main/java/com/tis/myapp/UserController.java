@@ -25,4 +25,31 @@ public class UserController {
 		return path + "/edit";
 		
 	}
+	
+	@RequestMapping(value = path + "/mypick")
+	public String myPick() {
+
+		System.out.println("myPick 페이지로이동 ");
+
+		return path + "/mypick";
+
+	}
+
+	@RequestMapping(value = path + "/pwd_chk")
+	public String pwdChk() {
+
+		System.out.println("pwd_chk 페이지로이동 ");
+
+		return path + "/pwd_chk";
+
+	}
+	
+	@RequestMapping(value = path + "/resign")
+	public String reSign() {
+
+		System.out.println("resign 페이지로이동");
+
+		return path + "/resign";
+
+	}
 }

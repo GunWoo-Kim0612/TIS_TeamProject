@@ -18,7 +18,7 @@
 
 		<!-- 로고 및 로그인   -->
 		<div class="row">
-			<a href="/main" class="navbar-brand d-flex align-items-center"> <strong>TIS</strong>
+			<a href="/" class="navbar-brand d-flex align-items-center"> <strong>TIS</strong>
 			</a>
 		</div>
 		<div class="row ">
@@ -125,7 +125,7 @@
 					</a>
 				</div>
 				<div class="col-sm-3 col-xs-3 col-md-3  my_navbar ">
-					<a class=" navbar-brand " href="/member/findId">
+					<a class=" navbar-brand " href="/member/findUserId">
 						<p>아이디찾기</p>
 					</a>
 				</div>
@@ -149,7 +149,7 @@
 					</a>
 				</div>
 				<div class="col-sm-3 col-xs-3 col-md-3 my_navbar ">
-					<a class=" navbar-brand " href="/member/findPasswd">
+					<a class=" navbar-brand " href="/member/findpasswd">
 						<p>패스워드찾기</p>
 					</a>
 				</div>
