@@ -1,3 +1,37 @@
+/* 08.28 추가본 start */
+	a {
+	text-decoration : none;
+	}
+	
+    .cwa-top dd {
+        padding-top: 30px;
+        width: 220px;
+        height: 280px;
+        text-align: right;
+        float: right;
+    }
+
+    .cwa-top dd a span {
+        display: block;
+        text-align: center;
+        font-size: 17px;
+        color: #fff;
+        background: #ed1839;
+        line-height: 53px;
+        height: 53px;
+    }
+
+    .cwa-top dd img {
+        width: 220px;
+        height: 280px;
+    }
+
+    .cwa-top dt {
+        display: inline-block;
+    }
+
+    /* 08.28 추가본 end */
+
 /* 08.27 추가본 start */
     .cwa-top dt ul li span.tit {
         width: 65px;
@@ -267,8 +301,12 @@
         padding-left: 16px;
         margin-top: 5px;
     }
+    
+    .cwa-text>.row>.col-2 {
+        min-width: 103px;
+    }
 
-    .cwa-text>a>span {
+    .cwa-text>.row>.col-2>a>span {
         display: table-cell;
         height: 103px;
         line-height: 20px;
@@ -277,7 +315,7 @@
         font-size: 17px;
     }
 
-    .cwa-text>a {
+    .cwa-text>.row>.col-2>a {
         display: table;
         position: relative;
         right: 0;
@@ -288,6 +326,7 @@
         border: 1px solid #ed1839;
         border-radius: 57px;
         text-decoration: none;
+        float: right;
     }
 
     .intro-ft {
