@@ -16,7 +16,7 @@
 						<div class="work">
 							<div
 								class="img d-flex align-items-center justify-content-center rounded"
-								style="background-image: url(images/work-1.jpg);">
+								style="background-image: url(/images/mainCarousel/0.gif);">
 								<a href="#"
 									class="icon d-flex align-items-center justify-content-center">
 									<span class="ion-ios-search"></span>
@@ -24,9 +24,9 @@
 							</div>
 							<div class="text pt-3 w-100 text-center">
 								<h3>
-									<a href="#">Work 01</a>
+									<a href="#">기돈 크레머 & 크케메라타 발티카</a>
 								</h3>
-								<span>Web Design</span>
+								<span>2022.09.02(금) 19:30</span>
 							</div>
 						</div>
 					</div>
@@ -34,7 +34,7 @@
 						<div class="work">
 							<div
 								class="img d-flex align-items-center justify-content-center rounded"
-								style="background-image: url(images/work-2.jpg);">
+								style="background-image: url(/images/mainCarousel/1.gif);">
 								<a href="#"
 									class="icon d-flex align-items-center justify-content-center">
 									<span class="ion-ios-search"></span>
@@ -42,9 +42,9 @@
 							</div>
 							<div class="text pt-3 w-100 text-center">
 								<h3>
-									<a href="#">Work 02</a>
+									<a href="#">퀸 엘리자베스 콩쿨 위너스 콘서트|파이널</a>
 								</h3>
-								<span>Web Design</span>
+								<span>2022.09.29(화) 19:30</span>
 							</div>
 						</div>
 					</div>
@@ -52,7 +52,7 @@
 						<div class="work">
 							<div
 								class="img d-flex align-items-center justify-content-center rounded"
-								style="background-image: url(images/work-3.jpg);">
+								style="background-image: url(/images/mainCarousel/2.gif);">
 								<a href="#"
 									class="icon d-flex align-items-center justify-content-center">
 									<span class="ion-ios-search"></span>
@@ -60,9 +60,9 @@
 							</div>
 							<div class="text pt-3 w-100 text-center">
 								<h3>
-									<a href="#">Work 03</a>
+									<a href="#">연극&lt;러브레터&gt;</a>
 								</h3>
-								<span>Web Design</span>
+								<span>2022.10.06(목)~11.13(일)</span>
 							</div>
 						</div>
 					</div>
@@ -70,7 +70,7 @@
 						<div class="work">
 							<div
 								class="img d-flex align-items-center justify-content-center rounded"
-								style="background-image: url(images/work-4.jpg);">
+								style="background-image: url(/images/mainCarousel/3.gif);">
 								<a href="#"
 									class="icon d-flex align-items-center justify-content-center">
 									<span class="ion-ios-search"></span>
@@ -78,9 +78,9 @@
 							</div>
 							<div class="text pt-3 w-100 text-center">
 								<h3>
-									<a href="#">Work 04</a>
+									<a href="#">슈만과 클라라, 그리고 브람스</a>
 								</h3>
-								<span>Web Design</span>
+								<span>2022.09.27(화) 19:30</span>
 							</div>
 						</div>
 					</div>
@@ -88,7 +88,7 @@
 						<div class="work">
 							<div
 								class="img d-flex align-items-center justify-content-center rounded"
-								style="background-image: url(images/work-5.jpg);">
+								style="background-image: url(/images/mainCarousel/4.gif);">
 								<a href="#"
 									class="icon d-flex align-items-center justify-content-center">
 									<span class="ion-ios-search"></span>
@@ -96,9 +96,9 @@
 							</div>
 							<div class="text pt-3 w-100 text-center">
 								<h3>
-									<a href="#">Work 05</a>
+									<a href="#">2022 예술의전당 여름음악축제</a>
 								</h3>
-								<span>Web Design</span>
+								<span>2022.08.24(수)~08.28(일)</span>
 							</div>
 						</div>
 					</div>
@@ -106,7 +106,7 @@
 						<div class="work">
 							<div
 								class="img d-flex align-items-center justify-content-center rounded"
-								style="background-image: url(images/work-6.jpg);">
+								style="background-image: url(/images/mainCarousel/5.gif);">
 								<a href="#"
 									class="icon d-flex align-items-center justify-content-center">
 									<span class="ion-ios-search"></span>
@@ -114,9 +114,9 @@
 							</div>
 							<div class="text pt-3 w-100 text-center">
 								<h3>
-									<a href="#">Work 06</a>
+									<a href="#">디스커버 라흐마니노프:피아노 협주곡</a>
 								</h3>
-								<span>Web Design</span>
+								<span>2022.19.27(목) 19:30</span>
 							</div>
 						</div>
 					</div>

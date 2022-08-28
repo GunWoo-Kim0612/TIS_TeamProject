@@ -73,5 +73,13 @@ public class MemberControll {
 		return "/index";
 
 	}
-
+	
+	@RequestMapping(value = path + "/join_check")
+	public String join_checkView() {
+		
+		System.out.println("join_check  화면으로 이동");
+		
+		return path + "/join_check";
+		
+	}
 }
