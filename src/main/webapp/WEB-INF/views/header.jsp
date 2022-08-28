@@ -33,6 +33,11 @@
                         <strong> Join</strong>
                     </a>
                 </div>
+                <div class="col-sx-2 col-sm-4 col-md-6">
+                    <a href="/user/edit" class="navbar-brand d-flex align-items-center my_row">
+                        <strong> MyPage</strong>
+                    </a>
+                </div>
             </div>
             <!-- </div> -->
         </div>
@@ -90,7 +95,7 @@
                         </a>
                     </div>
                     <div class="col-sm-3 col-xs-3 col-md-3  my_navbar ">
-                        <a class=" navbar-brand " href="#">
+                        <a class=" navbar-brand " href="/show_view/view_place_seats">
                             <p>공연장보기</p>
                         </a>
                     </div>

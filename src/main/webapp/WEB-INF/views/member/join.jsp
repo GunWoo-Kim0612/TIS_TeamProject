@@ -24,17 +24,16 @@
 	integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
 	crossorigin="anonymous"></script>
 	
-	<!-- header css  -->
-	<link rel="stylesheet" href="../css/style.css">
+    <!-- header css-->    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
+    
+    <!-- banner css -->
+    <link href="../css/show_view.css" rel="stylesheet">
 	
 	
 <style>
-* {
-	margin: 0px;
-	padding: 0px;
-	text-decoration: none;
-	font-family: sans-serif;
-}
+
 
 body {
 	background: #ffffff;
@@ -148,6 +147,9 @@ body {
 
 <body>
 	<jsp:include page="../header.jsp"></jsp:include>
+	<jsp:include page="member_b.jsp"></jsp:include>
+
+
 
 	<div class="container">
 		<form action="doJoin" method="POST" class="joinForm"
