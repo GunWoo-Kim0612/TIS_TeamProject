@@ -5,14 +5,22 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-public class testController {
+public class ViewController {
 
 	@RequestMapping(value = "/test")
 	public String testView() {
 
-		System.out.println("test È­¸éÀ¸·Î ÀÌµ¿...");
+		System.out.println("test í˜ì´ì§€ë¡œì´ë™...");
 
 		return "test";
 
+	}
+	@RequestMapping(value = "/")
+	public String mainView() {
+		
+		System.out.println("index í˜ì´ì§€ë¡œì´ë™...");
+		
+		return "index";
+		
 	}
 }
