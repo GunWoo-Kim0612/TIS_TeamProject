@@ -6,3 +6,5 @@
             <a href="">목 록 보 기</a>
         </div>
         <!-- 상세정보 footer end -->
+        
+        <div class="blank_40"></div>

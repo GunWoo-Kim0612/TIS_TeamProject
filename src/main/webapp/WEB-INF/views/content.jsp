@@ -7,8 +7,11 @@
 <section class="ftco-section">
 			<div class="container">
 				<div class="row">
+<<<<<<< HEAD
 					<div class="col-md-12 text-center">
 					</div>
+=======
+>>>>>>> branch 'develope_branch' of https://github.com/GunWoo-Kim0612/TIS_TeamProject.git
 					<div class="col-md-12">
 						<div class="featured-carousel owl-carousel">
 							<div class="item">
