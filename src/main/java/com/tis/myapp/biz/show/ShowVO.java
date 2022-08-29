@@ -1,6 +1,7 @@
 package com.tis.myapp.biz.show;
 
-import java.sql.Date;
+import java.util.Date;
+
 
 import lombok.Getter;
 import lombok.Setter;

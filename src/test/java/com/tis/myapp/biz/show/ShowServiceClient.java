@@ -28,39 +28,40 @@ public class ShowServiceClient {
 		
 		Scanner sc = new Scanner(System.in);
 
-		System.out.println("insert runtime");
-		runtime=sc.nextLine();
-		vo.setRuntime(runtime);
-		
-		System.out.println("insert price");
-		price =sc.nextLine();
-		vo.setPrice(price);
-		
-		System.out.println("insert title");
-		title =sc.nextLine();
-		vo.setTitle(title);
-		
-		System.out.println("insert contents");
-		contents =sc.nextLine();
-		vo.setContents(contents);
-		
-		System.out.println("insert img");
-		img =sc.nextLine();
-		vo.setImg(img);
+//		System.out.println("insert runtime");
+//		runtime=sc.nextLine();
+//		vo.setRuntime(runtime);
+//		
+//		System.out.println("insert price");
+//		price =sc.nextLine();
+//		vo.setPrice(price);
+//		
+//		System.out.println("insert title");
+//		title =sc.nextLine();
+//		vo.setTitle(title);
+//		
+//		System.out.println("insert contents");
+//		contents =sc.nextLine();
+//		vo.setContents(contents);
+//		
+//		System.out.println("insert img");
+//		img =sc.nextLine();
+//		vo.setImg(img);
 		/*
 		 * System.out.println("insert seats number"); seats =sc.nextInt(); img
 		 * =sc.nextLine();
 		 */
 		
 		
-		showService.insertShow(vo);
+//		showService.insertShow(vo);
 	
-		
-//		seq = sc.nextInt();
-//		sc.nextLine();
+		System.out.println("seq입력");
+		seq = sc.nextInt();
+		sc.nextLine();
+		vo.setSeq(seq);
 //		ShowVO show = new ShowVO();
-//		show = showService.getShow(vo);
-//		System.out.println(vo.toString());
+		vo = showService.getShow(vo);
+		System.out.println(vo.toString());
 		container.close();
 	}
 
