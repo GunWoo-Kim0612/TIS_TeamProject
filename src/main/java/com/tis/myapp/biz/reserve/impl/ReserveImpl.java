@@ -12,7 +12,7 @@ import com.tis.myapp.biz.reserve.ReserveVO;
 public class ReserveImpl implements ReserveService {
 
 	@Autowired
-	private ReserveDAO resDAO;
+	private ReserveDAOMybatis resDAO;
 	
 	@Override
 	public void insertReserve(ReserveVO vo) {

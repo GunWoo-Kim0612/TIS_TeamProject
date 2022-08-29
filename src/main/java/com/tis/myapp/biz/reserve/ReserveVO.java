@@ -3,7 +3,6 @@ package com.tis.myapp.biz.reserve;
 import java.util.Date;
 
 
-
 public class ReserveVO {
 	private int seq;
 	private String id;
