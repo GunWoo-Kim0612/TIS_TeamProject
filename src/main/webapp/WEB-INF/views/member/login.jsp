@@ -127,7 +127,7 @@ body {
 	<div class="container">
 		<div class="wrapper">
 			<div class="logo">
-				<img src="img/art.jpg" alt="">
+				<img src="/images/member/login.jpg" alt="">
 			</div>
 			<div class="text-center mt-4 name">artist</div>
 			<form class="p-3 mt-3" method="post" action="login.do">
@@ -142,7 +142,7 @@ body {
 				<input class="btn mt-3" type="submit" value="Login">
 			</form>
 			<div class="text-center fs-6">
-				<a href="#">Forget password?</a> or <a href="join">Sign up</a>
+				<a href="/member/findPasswd">Forget password?</a> or <a href="/member/login">Sign up</a>
 			</div>
 		</div>
 	</div>
