@@ -1,12 +1,12 @@
-package com.springbook.biz.reserve.impl;
+package com.tis.myapp.biz.reserve.impl;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.springbook.biz.reserve.ReserveService;
-import com.springbook.biz.reserve.ReserveVO;
+import com.tis.myapp.biz.reserve.ReserveService;
+import com.tis.myapp.biz.reserve.ReserveVO;
 
 @Service("reserveService")
 public class ReserveImpl implements ReserveService {

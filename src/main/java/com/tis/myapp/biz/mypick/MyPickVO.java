@@ -1,4 +1,4 @@
-package com.springbook.biz.mypick;
+package com.tis.myapp.biz.mypick;
 
 import lombok.Getter;
 import lombok.Setter;

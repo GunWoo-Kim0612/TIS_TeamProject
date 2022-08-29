@@ -1,12 +1,12 @@
-package com.springbook.biz.mypick.impl;
+package com.tis.myapp.biz.mypick.impl;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.springbook.biz.mypick.MyPickService;
-import com.springbook.biz.mypick.MyPickVO;
+import com.tis.myapp.biz.mypick.MyPickService;
+import com.tis.myapp.biz.mypick.MyPickVO;
 
 @Service("MyPickService")
 public class MyPickImpl implements MyPickService {

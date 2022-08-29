@@ -1,4 +1,4 @@
-package com.springbook.biz.mypick.impl;
+package com.tis.myapp.biz.mypick.impl;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;

@@ -1,4 +1,4 @@
-package com.springbook.biz.reserve;
+package com.tis.myapp.biz.reserve;
 
 import java.util.Date;
 
