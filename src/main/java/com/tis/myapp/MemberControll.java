@@ -30,21 +30,21 @@ public class MemberControll {
 
 	}
 
-	@RequestMapping(value = "/member/findId")
+	@RequestMapping(value = "/member/findUserId")
 	public String findIdView() {
 
 		System.out.println("findId  화면으로 이동");
 
-		return path + "/findId";
+		return path + "/findUserId";
 
 	}
 
-	@RequestMapping(value = "/member/findPasswd")
+	@RequestMapping(value = "/member/findpasswd")
 	public String findPasswdView() {
 
 		System.out.println("findPasswd  화면으로 이동");
 
-		return path + "/findPasswd";
+		return path + "/findpasswd";
 
 	}
 
@@ -73,5 +73,13 @@ public class MemberControll {
 		return "/index";
 
 	}
-
+	
+	@RequestMapping(value = path + "/join_check")
+	public String join_checkView() {
+		
+		System.out.println("join_check  화면으로 이동");
+		
+		return path + "/join_check";
+		
+	}
 }
