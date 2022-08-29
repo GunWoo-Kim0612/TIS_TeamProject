@@ -1,4 +1,4 @@
-package com.tis.myapp;
+package com.tis.myapp.view;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.ModelAttribute;
@@ -15,12 +15,12 @@ public class ViewController {
 		return "test";
 
 	}
-	@RequestMapping(value = "/")
-	public String mainView() {
-		
-		System.out.println("index 페이지로이동...");
-		
-		return "index";
-		
-	}
+//	@RequestMapping(value = "/")
+//	public String mainView() {
+//		
+//		System.out.println("index 페이지로이동...");
+//		
+//		return "index";
+//		
+//	}
 }

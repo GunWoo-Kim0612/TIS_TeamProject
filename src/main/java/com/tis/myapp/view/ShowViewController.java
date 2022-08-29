@@ -1,22 +1,43 @@
-package com.tis.myapp;
+package com.tis.myapp.view;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.stereotype.Repository;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.SessionAttributes;
+import org.springframework.web.servlet.ModelAndView;
 
 import com.tis.myapp.biz.show.ShowService;
+import com.tis.myapp.biz.show.ShowVO;
+import com.tis.myapp.biz.show.impl.ShowDAOMybatis;
 
 @Controller
-@SessionAttributes("show")
-public class ShowController {
-
+public class ShowViewController {
+	
 	@Autowired
 	private ShowService showService;
 	
-	final String path = "/show_view";
+	//메인 홈	
+	@RequestMapping("/")
+	public ModelAndView getShow(ShowVO vo, ModelAndView mav) {
+		System.out.println("맵핑은되냐");
+		ShowVO show = new ShowVO();
+		
+		mav.setViewName("index");
+//		mav.addObject("getShow",getShow(vo, mav));
+				
+		vo.setSeq(1);
+		System.out.println(vo.getSeq());
+		show = showService.getShow(vo);
+		System.out.println(show.toString());
+		return mav;
+	}
 	
 	
+	
+	
+	
+final String path = "/show_view";
 	
 	@RequestMapping(value = path + "/view_intro")
 	public String View_intro() {
@@ -62,4 +83,6 @@ public class ShowController {
 		return path + "/view_review";
 		
 	}
+	
+
 }

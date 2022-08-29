@@ -1,4 +1,4 @@
-package com.tis.myapp;
+package com.tis.myapp.view;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

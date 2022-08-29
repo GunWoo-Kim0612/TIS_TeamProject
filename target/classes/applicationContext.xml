@@ -45,8 +45,8 @@
 	</bean>
 
 
-<!-- Transaction START-->
-		<bean id="txManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+ <!-- Transaction START-->
+<!--		<bean id="txManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
 			<property name="dataSource" ref="dataSource"></property>
 		</bean>
 
@@ -58,11 +58,13 @@
 				<tx:method name="*"/>
 			</tx:attributes>
 		</tx:advice>
+-->
 
-
-		<!-- 트랜잭션에 해당하는 AOP -->
-		<aop:config>
-			<aop:pointcut expression="execution(* com.springbook.biz..*(..))" id="txPointcut"/>
-			<aop:advisor advice-ref="txAdvice" pointcut-ref="txPointcut"/>
-		</aop:config>
+	<!-- before -->
+	<!-- <aop:config>
+		<aop:pointcut expression="execution(* com.springbook.biz..*impl.*(..))" id="allPointcut"/>
+		<aop:aspect ref="before">
+			<aop:before method="beforeLog" pointcut-ref="allPointcut"/>
+		</aop:aspect>
+	</aop:config> -->
 </beans>
