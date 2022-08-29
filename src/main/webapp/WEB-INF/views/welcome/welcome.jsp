@@ -42,7 +42,7 @@
   <jsp:include page="../header.jsp"></jsp:include>
   <jsp:include page="welcome_b.jsp"></jsp:include>
     <div class="container">
-    <jsp:include page="../user/mp_nav.jsp"></jsp:include>
+    
       <!-- 주소 -->
       <div class="card text-white bg-dark mb-3 mt-3">
         <div class="card-header h3">오시는 길</div>

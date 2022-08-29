@@ -21,6 +21,14 @@
 
 
 	<dependencies>
+
+		<!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.18.10</version>
+			<scope>provided</scope>
+		</dependency>
 		<!-- Spring -->
 		<dependency>
 			<groupId>org.springframework</groupId>
@@ -123,6 +131,7 @@
 			<version>4.12</version>
 			<scope>test</scope>
 		</dependency>
+<<<<<<< HEAD
 
 		<!-- https://mvnrepository.com/artifact/org.mybatis/mybatis -->
 		<dependency>
@@ -188,11 +197,16 @@
 			<artifactId>jackson-databind</artifactId>
 			<version>2.9.7</version>
 		</dependency>
+=======
+>>>>>>> branch 'develope_branch' of https://github.com/GunWoo-Kim0612/TIS_TeamProject.git
 	</dependencies>
+<<<<<<< HEAD
 
 
 
 
+=======
+>>>>>>> branch 'develope_branch' of https://github.com/GunWoo-Kim0612/TIS_TeamProject.git
 	<build>
 		<plugins>
 			<plugin>
