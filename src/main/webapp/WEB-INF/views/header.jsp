@@ -72,8 +72,8 @@
 					</a>
 				</div>
 				<div class="col-sm-3 col-xs-3 col-md-3  my_navbar ">
-					<a class=" navbar-brand " href="#">
-						<p>오시는길 주차안내</p>
+					<a class=" navbar-brand " href="/welcome/welcome">
+						<p>오시는길</p>
 					</a>
 				</div>
 				<div class="col-sm-3 col-xs-3 col-md-3  my_navbar ">

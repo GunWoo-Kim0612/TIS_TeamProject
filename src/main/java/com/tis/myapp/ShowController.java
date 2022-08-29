@@ -1,13 +1,22 @@
 package com.tis.myapp;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.SessionAttributes;
+
+import com.tis.myapp.biz.show.ShowService;
 
 @Controller
-public class ShowViewController {
+@SessionAttributes("show")
+public class ShowController {
 
+	@Autowired
+	private ShowService showService;
 	
-final String path = "/show_view";
+	final String path = "/show_view";
+	
+	
 	
 	@RequestMapping(value = path + "/view_intro")
 	public String View_intro() {
