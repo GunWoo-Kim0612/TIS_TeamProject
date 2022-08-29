@@ -19,20 +19,21 @@
 		<!-- insert기능이 실행되기전에 seq라는 이름으로 동작하는것 사용시 파라미터형식 : #{seq} 오라클sql에서 만들어놓은 
 			시퀀스 사용 -->
 		<selectKey keyProperty="seq" resultType="int" order="BEFORE">
-			select board_seq.nextval as seq from dual
+			select show_seq.nextval as seq from dual
 		</selectKey>
-		INSERT INTO show(seq, runtime, price, title, contents, img, seats)
-		<!-- (SELECT NVL(MAX(SEQ),0) + 1 FROM board2) seq에 해당하는 부분 변경 -->
-		VALUES(#{seq}, #{runtime}, #{price}, #{title}, #{content} #{img}, #{seats})
+		INSERT INTO show (seq, runtime, price, title, contents, img, seats)
+		VALUES(#{seq}, #{runtime}, #{price}, #{title}, #{contents}, #{img}, #{seats})
 	</insert>
 
+
+
 	<update id="updateShow">
-		UPDATE board2 SET title=#{title}, content=#{content}
+		UPDATE show SET runtime = #{runtime}, price=#{price}, title=#{title}, contents=#{contents}, img = #{img}, seats = #{seats}
 		WHERE seq=#{seq}
 	</update>
 
 	<delete id="deleteShow">
-		DELETE FROM board2 WHERE seq=#{seq}
+		DELETE FROM show WHERE seq=#{seq}
 	</delete>
 
 	<!-- <select id="getBoard" resultType="com.springbook.biz.BoardVO"> -->
@@ -44,13 +45,9 @@
 
 <!-- resultMap에 매칭되는 정보로 변경 -->
 	<select id="getShowList" parameterType="show" resultMap="showResult">
-		<![CDATA[
-		SELECT * FROM board2
-		WHERE title LIKE '%'||#{searchKeyword}||'%'
-		and seq > 0
-		ORDER BY seq DESC
-		]]>
-
+    	select *  from show
+   
 	</select>
+	<!-- 가장 가까운 공연 5개 불러와서 메인에 뿌려줘요 -->
 
 </mapper> 
