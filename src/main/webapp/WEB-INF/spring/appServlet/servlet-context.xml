@@ -34,8 +34,6 @@
 		base-package="com.tis.myapp.biz.ShowService" />
 
 
-	<context:property-placeholder
-		location="classpath:config/database.properties" />
 
 
 </beans:beans>
