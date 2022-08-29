@@ -31,7 +31,7 @@
 	</beans:bean>
 
 	<context:component-scan
-		base-package="com.tis.myapp.biz.ShowService" />
+		base-package="com.tis.myapp" />
 
 
 

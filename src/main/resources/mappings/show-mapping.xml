@@ -38,7 +38,7 @@
 	<!-- <select id="getBoard" resultType="com.springbook.biz.BoardVO"> -->
 	<!-- alias로 수정함 -->
 	<select id="getShow" resultType="show">
-		SELECT *FROM show WHERE seq=#{seq}
+		SELECT *FROM show WHERE seq = #{seq}
 	</select>
 
 
