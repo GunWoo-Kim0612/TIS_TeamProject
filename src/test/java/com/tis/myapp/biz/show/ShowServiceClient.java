@@ -63,6 +63,8 @@ public class ShowServiceClient {
 		vo = showService.getShow(vo);
 		System.out.println(vo.toString());
 		container.close();
+		sc.close();
+		
 	}
 
 }
