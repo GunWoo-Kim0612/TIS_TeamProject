@@ -66,8 +66,8 @@ public class ShowDAOMybatis {
 
 
 	//U readCount ++
-	public void increaseCNT(ShowVO Bvo) {
+	public void increaseCNT(ShowVO vo) {
 		System.out.println("========>Spring   increaseCNT() 기능처리 ");
-
+		
 	}
 }

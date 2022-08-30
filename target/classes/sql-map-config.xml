@@ -33,5 +33,6 @@
 
 	<mappers>
 		<mapper resource="mappings/show-mapping.xml"/>
+		<mapper resource="mappings/review-mapping.xml"/>
 	</mappers>
 </configuration> 

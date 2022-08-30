@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="ReviewDAO">
+
+
+<resultMap type="review" id="reviewResult">
+	<!-- vo객체이름, PK컬럼명   id태그 -->
+	<id property="seq" column="SEQ"/>
+	<!-- setter메소드 와 일반 컬럼명  result태근-->
+	<result property="title" column="TITLE"/>
+</resultMap>
+
+
+
+
+	<insert id="insertReview" parameterType="review">
+		INSERT INTO Review(seq, id, title, contents, score)
+		VALUES(#{seq}, #{id}, #{title}, #{contents}, #{score})
+	</insert>
+
+	<update id="updateReview">
+		UPDATE review SET title=#{title}, content=#{content}, score=#{score}
+		WHERE seq=#{seq}
+	</update>
+
+	<delete id="deleteReview">
+		DELETE FROM review WHERE seq=#{seq}
+	</delete>
+
+	<!-- <select id="getBoard" resultType="com.springbook.biz.BoardVO"> -->
+	<!-- alias로 수정함 -->
+	<select id="getReview" resultType="review">
+		SELECT * FROM Review WHERE seq=#{seq}
+	</select>
+
+
+<!-- resultMap에 매칭되는 정보로 변경 -->
+	<select id="getReviewList" parameterType="review" resultMap="reviewResult">
+		<![CDATA[
+		SELECT * FROM review
+		WHERE title LIKE '%'||#{searchKeyword}||'%'
+		and score > 0
+		ORDER BY score DESC
+		]]>
+
+	</select>
+
+</mapper> 
